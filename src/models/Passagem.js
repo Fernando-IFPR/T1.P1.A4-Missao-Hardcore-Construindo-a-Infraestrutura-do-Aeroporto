@@ -1,0 +1,3 @@
+class Passagem {
+    passagemID = bagagemID;
+}
