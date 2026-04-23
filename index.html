@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aeroporto - Gestão de Crise</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; background: #eef; }
+        .box { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        input { display: block; width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; cursor: pointer; background: #0044cc; color: white; border: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h3>Painel de Controle</h3>
+        <input type="text" id="campoCodigo" placeholder="Código do Voo">
+        <input type="text" id="campoOrigem" placeholder="Origem">
+        <input type="text" id="campoDestino" placeholder="Destino">
+        <button id="btnRegistrar">Registrar no Sistema</button>
+        <p id="avisoSistema"></p>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
