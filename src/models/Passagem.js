@@ -1,3 +1,0 @@
-class Passagem {
-    passagemID = bagagemID;
-}
